@@ -3,149 +3,67 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="img/png" href="img/Favicon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <title>Memory Game</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div id="container">
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
+    <section class="memory-game">
+        <div class="memory-card" data-framework="Panter">
+            <img class="front-face" src="img/BackPanter.png" alt="Panter" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
         </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
-        </div>
-        <div class="card_out">
-            <div class="card_in">
-                <div class="front"></div>
-                <div class="back"><img src=""></div>
-            </div>
+        <div class="memory-card" data-framework="Panter">
+            <img class="front-face" src="img/BackPanter.png" alt="Panter" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
         </div>
 
+        <div class="memory-card" data-framework="America">
+            <img class="front-face" src="img/CaptainAmerica.png" alt="America" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
+        <div class="memory-card" data-framework="America">
+            <img class="front-face" src="img/CaptainAmerica.png" alt="America" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
 
-    </div>
-    <div id="board">
-        <span>
-            <h1>Pont:<span id="score">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idő:<span id="time">00:00</span></h1>
-        </span>
+        <div class="memory-card" data-framework="Dead">
+            <img class="front-face" src="img/DeadPool.png" alt="Dead" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
+        <div class="memory-card" data-framework="Dead">
+            <img class="front-face" src="img/DeadPool.png" alt="Dead" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
 
-    </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+        <div class="memory-card" data-framework="Iron">
+            <img class="front-face" src="img/IronMan.png" alt="Iron" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
+        <div class="memory-card" data-framework="Iron">
+            <img class="front-face" src="img/IronMan.png" alt="Iron" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
+
+        <div class="memory-card" data-framework="Spider">
+            <img class="front-face" src="img/SpiderMan.png" alt="Spider" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
+        <div class="memory-card" data-framework="Spider">
+            <img class="front-face" src="img/SpiderMan.png" alt="Spider" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
+        <div class="memory-card" data-framework="Doctor">
+            <img class="front-face" src="img/Doctor.png" alt="Doctor" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
+        <div class="memory-card" data-framework="Doctor">
+            <img class="front-face" src="img/Doctor.png" alt="Doctor" />
+            <img class="back-face" src="img/marvel2.png" alt="JS Badge" />
+        </div>
+    </section>
+
+    <script src="js/controls.js"></script>
 </body>
-<script src="js/controls.js"></script>
 
 </html>
